@@ -1,0 +1,122 @@
+
+laravel/laravel 
+ye ak free open source web framework hy jo mvc pattren ko follow krta hy.
+talor otwl ny 2011 min 
+
+
+composer 
+dependieces manajer hy .
+
+PASSING DATA FROM CONTROLLER TO VIEW
+new array ====   
+Using view()
+Using with()
+Using compact()
+Using Controller Class
+
+
+Query Builder
+hamri application ko sql injection sy protect krta hy  usin PDO perameter binding.
+jin database ko laravel sport krta in sub k sath kam krta.
+
+
+Eloquent (orm)
+Eloquent ORM (Object-Relational Mapping) Laravel ka ek powerful feature hai jo database
+ke saath interact karne ko aasan banata hai. Iske kuch key points hain:
+$users = User::all();
+
+
+Routes
+Routes HTTP requests ko handelkrny kly ahim krdar adda krty hy.
+
+controller
+ak controller model aur view k drmiyan ak salis k toor pr kam krta hy.
+  
+  1 any wali http request ko smbhalna our in pr krwi krna.
+
+  2 data ko show,store ,updata  our delete krny kly models k sath batcheet krna.
+
+
+
+
+composer create-project laravel/laravel example-app
+
+composer global require laravel/installer
+php -S localhost:8000 -t public/
+
+
+
+php artisan route:cache
+
+php artisan route:clear
+
+
+
+
+ 
+
+migration 
+table kly colmun bnana.
+
+migrate
+jo table define kia hy is ko databse k ander ja k bna dena
+
+blueprint
+sari data type is class k andr define hoti hy.
+
+
+1. **Fresh**: Yeh command sab tables ko remove kar deti hai aur phir se migration karti hai.
+
+2. **Refresh**: Yeh command sab created tables ko rollback karti hai aur phir se migration karti hai.
+
+3. **Reset**: Yeh command database mein banaye gaye sab tables ko remove kar deti hai.
+
+4. **Rollback**: Yeh command aakhri chalai gayi commands ko undo kar deti hai.
+
+
+
+Dependency Injection (DI) ek powerful design pattern hai jo software development mein kaafi faida mand hota hai.
+Iska maqsad code ko clean, maintainable, aur testable banana hai. Yahan kuch aur important aspects hain:
+ (i)Har class sirf apne kaam par focus karti hai. Dependencies ko manage karne ki zarurat nahi hoti.
+ (ii)Classes ek dusre par dependent nahi hoti, isse code ka reusability aur flexibility badhta hai
+
+
+php artisan make:migration update_students_table --table=students
+php artisan make:model Student -m
+php artisan migrate
+
+
+php artisan db:seed --class=studentSeeder
+
+
+
+
+
+
+composer remove spatie/laravel-ignition
+
+
+
+
+ren *.html *.blade.php
+
+
+
+
+
+
+delete history vs code terminal
+Steps to follow:
+1: Set-PSReadlineOption -HistoryNoDuplicates
+2: Remove-Item (Get-PSReadlineOption).HistorySavePath 
+3: Press ALT + F7 at the same time
+
+
+Middleware kya hota hai?
+Middleware Laravel ka ek powerful feature hai jo HTTP requests aur responses ke beech mein execute hota hai.
+Yeh aapke application mein request handling ko modify karne ke liye istemal hota hai. Middleware ka istemal aap security,
+logging, session management, aur authentication ke liye kar sakte hain. Yahaan kuch key points hain:
+
+
+
+

@@ -1,0 +1,70 @@
+create project
+
+django-admin startproject Firstapp
+
+django project run krny kly
+
+python manage.py runserver
+ 
+
+view madules
+
+response krwany kly 
+from django.http import HttpResponse
+
+url min view import krny kly 
+from  apptech import view
+
+html page ko runder krwany kly view min
+from django.shortcuts import render
+
+datetime imort krny kly
+from datetime import date
+
+
+theme istamal krny kly
+
+STATICFILES_DIRS = [BASE_DIR,'static']
+
+change name  url
+{% url 'renameurl' as ChangeNameURL %}
+
+
+
+  <li class="nav-item  {% if request.path == '/Contact/' %} active {% endif %}">
+
+imag uplodekrny kly
+1 media name ka folder bna hy
+2 setting.py ki file media folder ko rigester krna hy
+3 url ki file min jana hy madules add krny hyn
+   from django.conf import settings #add this
+   from django.conf.urls.static import static #add this
+4 last min 1 line add krni hy url file min ] array k bad
+    + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+5 ak madule add krn a
+    from django.core.files.storage import FileSystemStorage
+6 img ko sava krany kly hy
+     if request.method == 'POST' and request.FILES['upload']:
+        upload = request.FILES['upload']
+        fss = FileSystemStorage()
+        file = fss.save(upload.name, upload)
+        file_url = fss.url(file)
+        return render(request, 'main/upload.html', {'file_url': file_url})
+
+ye app create krny kly hy
+django-admin startapp servises
+
+model bnay kly
+python manage.py makemigrations
+
+
+table bny kly
+python manage.py migrate
+
+username:sanaullah
+pass:1234
+email:sanaullah@gmail.com
+python -m venv myenv
+myenv\Scripts\activate
+
+

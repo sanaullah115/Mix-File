@@ -1,0 +1,19 @@
+from django.shortcuts import render
+
+
+def homepage(request):
+    return render("home.html")
+
+def loginpage(request):
+    return render("loginpage.html")
+
+
+def signuppage(request):
+    if request.method=='POST':
+        username=request.POST.get('username')
+        useremail=request.POST.get('email')
+        pass1=request.POST.get('password1')
+        pass2=request.POST.get('password2')
+
+        print(username,useremail,pass1,pass2)
+    return render("signuppage.html")

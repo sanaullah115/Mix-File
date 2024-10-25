@@ -1,0 +1,66 @@
+oop?
+ hmary pass ak tarika kar hy progrmming krny ka 
+"OOP programming" yani "Object-Oriented Programming" ek programming paradigm hai
+ jahan par aap code ko objects aur classes ki madad se organize karte hain.
+
+(paradigm)
+ek tareeka ya approach jisse programmers code likhte waqt follow karte hain.
+Har paradigm ek specific tareeka provide karta hai code ko organize aur likhne ke liye.
+Jaise ki, 
+"Object-Oriented Programming" (OOP) mein code objects aur classes ke through organized hota hai,
+jabki "Procedural Programming" mein code ko step-by-step likha jata hai.
+Har paradigm ka apna tareeka hota hai code likhne ka, aur programmer us tareeke ko
+follow karte hain, jisse unka code sahi tarike se kaam kare.
+
+
+
+
+
+
+#class and object
+#consept hamary pass 6 hy
+#likin oop k pillers four hyn
+# 1) class
+# 2) object
+# 3) Abstraction
+# 4) Encapsulation
+# 5) Inheritance
+# 6) Polymorphism
+
+# 1) class
+#A class is a user-defined blueprint or prototype from which objects are created.  
+#class real word min aggessest ni krti
+#class hamrey pass 2 cheezin rkhti hy 1(attiributes) 2(Methodes)
+
+
+
+
+# A Sample class 
+class Person:
+	# Sample Method
+	def say_hi(self):
+		print('Hello, my id is', self.ids)
+		print('Hello, my name is', self.name)
+
+Person1 = Person(123,"sanaullah")
+Person1.say_hi()
+
+
+
+
+
+	def __init__(self,ids,name):
+		self.ids = ids
+		self.name = name
+
+# init method or constructor
+#ye hamry pass special type method hy
+#jb kisi class ka object bna k call krin gy 
+#to sub sy phly ye method run ho ga
+#ji sy wo method k verabls ko refers kr skta
+#self
+#SELF class k method min as prameter istamaal kia jata hy 
+#object ki propities or methods ko access krny kly use kia jata hy
+
+
+

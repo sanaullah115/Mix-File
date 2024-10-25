@@ -1,0 +1,310 @@
+php
+PHP stands for (php Hypertext Preprocessor). 
+php ko dynamic website banay kly istmal kia jata hy.
+ye ak open source server-side scripting language.
+jo bry pymany pr web development kly istaml hoti hy. 
+It supports many databases like MySQL, Oracle, Sybase, Solid, PostgreSQL, generic ODBC etc.
+
+
+3) Who is known as the father of PHP?
+Rasmus Lerdorf
+
+ech and print
+echo fast hy print k muqbly min
+echo mi multiple value print krwa skty hy jb k print mi single print krta hy 
+
+var_dump()
+ye variable ki value or data type bta ta  hy
+
+comments 
+code k bary min btany kly comment kia jta hy.
+ya code ko test kr rhy hyn to is line ko comment kr din.
+2 type comments 
+1 single line 
+// or # sy ho ga 
+2 multiple line 
+/*ghghfghghhg*/
+
+
+constant
+ye global variable hy
+is ki value fix hoti hy
+is min $ ka sign use ni krty
+
+define(name,value,case)
+
+
+
+funcation
+code ka tokra hota hy
+jisy kai bar reuse kia jata hy 
+funcation ko ak bar banaty hyn or many time call krty hyn
+funcation ka ak fida ye hy k ye less code hota hy
+///my
+funcation ko call kert wqt is min kuch add ni kr skty
+
+
+
+funcation defination
+funcation abc(){
+echo "hello";
+}
+
+calling a funcation
+abc();
+
+
+return funcation print ni krta is ko agy use krny kly istamal kia jata 
+is ko call krty wqt  add kr skty hyn
+
+variablefuncation
+funcation ko ak vaeriale k andr assign krna variablefuncation khlata hy.
+funcation k name ko variable k "funcation name" assign krna hy.
+() ni lgain hyn.jb variabel ko call krin gy is wqat lagin gy.
+
+Anonymous function
+funcation ko ak vaeriale k andr assign krna Anonymous function.
+{}is k bad ; laga zarori hy.
+
+
+
+Recursive Function
+jb Function khod hi ko call kry to Recursive Function khlata hy.ye funcation 
+apny ap ko bar bar call krta hy jb tk condtion coplete na ho.
+is funcation ka mqsad nested data ko niklna hy.
+ye loop ki tra kam krta hy
+
+
+
+Local Variable
+funcation k ander variable ko  Local Variable khty hy.
+is ka scop funcation k ander hy is ko funcation k bhr call ni kr skty.
+
+
+
+ Global Variable
+funcation k baher variable ko  Global Variable khty hy
+is ka scop funcation k Baher hy is ko funcation k ander call ni kr skty.
+
+
+global
+agr ap globall variable ko funcation min call krna chty hy to global keyword istmal krt hyn
+
+
+
+Array funcation
+
+Array Count & Sizeof Function
+in dono ka kam array ki value ko count krna hy
+likin in ka likhny ka triqa alg hy
+
+In_array & Array_search
+array min sy value seach krny kly use krty hyn.
+In_array 1 ya 0 return krta hy 1 tb hi ay ga jo value di hy is ko mil jy.
+Array_search index/key return krta hy.agr index array ho ga to index return kry ga
+agr assoccitve array hy to key return kry ga.
+is k ander hum pory ka pora array bi search kr skty hyn.
+
+
+
+Array_replace & Array_replace_recursive
+exist arry k ander change ni krin gy ak new array bny ga.
+Array_replace ye index/associtive k sath use hota hy.
+Array_replace_recursive ye multidyminsinal associative arry k sath use hota hy
+
+Array_pop
+array ki last value ko delete kry ga 
+
+Array_push
+array min last min value add kerny kly use krty hyn.multiple entry bi kr skty hyn
+
+Array_shift
+array ki jo sb sy phli value ho gi is ko remove kry ga
+
+Array_unshift
+array min fist min value add kerny kly use krty hyn.multiple entry bi kr skty hyn
+
+
+Array_Merge
+index or associative k sat kam krta hy
+
+Array_Merge_recursive 
+ye multidyminsinal associative arry k sath use hota hy
+jahan py common keys hon gi wahn py alg sy ak array bnaa dy ga.
+Array_Combine
+index array ka sath use hota hy
+phly arry ko keys bna dy ga or dosra arry ko value bnay ga.
+
+Array_Slice
+arry min sy value ko get krny kly use krty hyn
+
+
+
+MySQLi Fetch Functions 
+
+mysqli_fetch_assoc 
+associative arry  ko fetch kr k lata hy. ye ak bar min ak hi result fetch krta hy
+value ko key number ki mdd sy print kryn gy
+mysqli_fetch_row,
+ye ak hi row fetch kr k  ly ay ga .likn is ko index arry bna dy ga
+value ko index number ki mdd sy print kryn gy
+mysqli_fetch_array , 
+ye  dono tariqy ka data dikha skta hy.index or associative 
+mysqli_fetch_all ,
+ye ak bar min sara data ly k ay ga or is ko ak  multidyminsinal array bna dy ga
+mysqli_fetch_field 
+ye table k column k  bry min bta hy 
+
+
+
+
+Inheritance 
+
+Inheritance min ak class ki propities or methods ko dori class min use kr skty hyn.
+
+Access Modifier
+jb bi koi class bna rhy hoty hin to hum restriction laga skty hyn k kon kon access kr skta hy.
+
+public
+is ko class k baher bi access kr skty hyn.ak class k public variables or method ko dosri class min access kr skty hyn
+Protected Access Specifier
+class ka object bna k access ni kr skta bhar sy. drive class bna k access kr skty hyn. or class k ander access kr skty hyn.
+agr variabl Protected hy to is ki value ko override ni kr skty. 
+Private Access Specifier
+is ko na bhaer sy access kr skty hyn or na hi drive kr k access kr skty hyn 
+
+
+
+
+
+
+
+
+
+What is the name of scripting engine in PHP?
+The scripting engine that powers PHP is called Zend Engine 2.
+
+7) Explain the difference between PHP4 and PHP5.
+PHP4 doesn't support oops concept and uses Zend Engine 1.
+
+PHP5 supports oops concept and uses Zend Engine 2.
+
+24) What does isset() function?
+The isset() function checks if the variable is defined and not null.
+
+
+How many types of array are there in PHP?
+There are three types of array in PHP:
+
+Indexed array: an array with a numeric key.
+Associative array: an array where each key has its specific value.
+Multidimensional array: an array containing one or more arrays within itself.
+
+
+:: scope resolation oprater
+static funcation ko kisi class min access krna hy to
+
+-> sigle arrow oprator
+non staic funcation ko  kisi class min access krna hy to
+
+
+
+
+
+
+ include 'index.php';
+is ko file include krny kly istamal kia jata hy
+ye function ki trah kam krta hy 
+jtni bar call krin gy ye call ho ga
+ak file (index.php) min dosri(abc.php) file ko include kr rhy hyn
+or ye file (abc.php) mojod  ni hy
+to ye funcation (index.php) wali file ka script run kry ga (abc.php) ka error ay ga 
+
+
+require 'abc.php'
+is ko file include krny kly istamal kia jata hy
+ak file (index.php) min dosri(abc.php) file ko include kr rhy hyn
+or ye file (abc.php) mojod  ni hy
+to ye funcation (index.php) wali file ka script  bi execute ni kry ga or(abc.php) ka fatal error ay ga
+
+
+include_once 'footer.php';
+ ak hi dfa chly ga 
+
+
+require_once 'footer.php';
+ ak hi dfa chly ga 
+
+
+isset() funcation
+ye funcation batata hy k variable k ander value set ki hy k ni
+
+
+
+
+superglobel variable
+
+$GLOBALS
+$_SERVER
+$_REQUEST
+$_POST
+$_GET
+$_FILES
+$_ENV
+$_COOKIE
+$_SESSION
+
+
+
+PHP mein "superglobals" pre-defined variables hote hain.
+bina kisi special syntax ya declaration ke istemal kiye server, request, aur environment ke baare mein jaankari provide karte hain.
+ Sabse aam istemal hone wale PHP superglobals mein se kuch hain `$_GET`, `$_POST`, `$_SESSION`, `$_COOKIE`,
+ `$_SERVER`, aur `$_FILES`.
+
+1. `$_GET`: Iska istemal URL query parameters (HTTP GET method) ke zariye server ko bheji gayi data ko retrieve karne ke liye hota hai.
+ For example, agar aapke paas `example.com/?id=123` jaisa URL hai, to aap `$_GET['id']` ka istemal karke "id" ke value ko access kar sakte hain.
+
+2. `$_POST`: Iska istemal HTTP POST method ke zariye server ko bheji gayi data ko retrieve karne ke liye hota hai, aksar forms se.
+Aap forms ke input fields ke values ko is tarah se access kar sakte hain: `$_POST['username']`, agar aapke paas ek form input field "username" ke naam se hai.
+
+3. `$_SESSION`: Iska istemal session data ko store aur retrieve karne ke liye hota hai, jisse aap multiple requests ke beech user-specific data ko maintain kar sakte hain.
+
+4. `$_COOKIE`: Iska istemal cookies se data retrieve karne ke liye hota hai, jo client ke browser mein bheje jate hain aur aane wali requests ke saath wapas bheje jate hain. 
+Aksar user preferences ko store karne aur user ki activity ko track karne ke liye istemal hota hai.
+
+5. `$_SERVER`: Isme server aur current request ke baare mein jaankari hoti hai. Aap `$_SERVER['REMOTE_ADDR']`, `$_SERVER['HTTP_USER_AGENT']`, aur `$_SERVER['REQUEST_METHOD']` 
+jaise data ko access kar sakte hain, jo server ki IP address, user agent, aur request method ke baare mein hota hai.
+
+6. `$_FILES`: Iska istemal forms mein file uploads ko handle karne ke liye hota hai. Isse uploaded file ke naam, type, size, aur temporary location ke baare mein jaankari milti hai.
+
+Superglobals PHP mein mahatvapurn hote hain kyun ki ye aapko environment ke saath interact karne, user input ko handle karne, aur sessions ko manage karne mein aasani dete hain. 
+Lekin dhyan dein ki aap superglobals se retrieve ki gayi koi bhi data ko validate aur sanitize karen, taki suraksha ko sudharne aur SQL injection aur cross-site scripting (XSS) 
+jaise vulnarabilities ko rokne mein madad mile.
+
+
+
+12) What is the meaning of a final class and a final method?
+‘final’ is introduced in PHP5. Final class means that this class cannot be extended and a final method cannot be overridden.
+
+
+19) What are the functions to be used to get the image’s properties (size, width, and height)?
+The functions are getimagesize() for size, imagesx() for width and imagesy() for height.
+
+21) What is the main difference between require() and require_once()?
+require(), and require_once() perform the same task except that the second function checks if the PHP script is already included or not before executing it.
+
+(same for include_once() and include())
+
+
+The implode() function  array ko string min convert krta hy.
+
+The explode() function string  ko  array min convert krta hy.
+
+ ?
+Differences between GET, POST and REQUEST methods?
+Ans. GET and POST are used to send information from client browser to web server.
+ In case of GET the information is send via GET method in name/value pair and is URL encoded. 
+The default GET has a limit of 512 characters. The POST method transfers the information via HTTP Headers. 
+The POST method does not have any restriction in data size to be sent. POST is used for sending data securely.
+The $_REQUEST contains the content of both $_GET $_POST and $ COOKIE.
+

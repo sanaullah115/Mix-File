@@ -1,0 +1,54 @@
+learning 41
+
+
+this keyword class ki propities ko refer krta hy 
+program min 1 hi defult CONSTRUCTOR  hota hy dosra ni bna skty
+
+STATIC variable ki value  her object kly same rhy gi
+
+STATIC  method min sirf STATIC  method hi call kr skty hyn 
+likn instance method min STATIC or instance 2 ko call kr skty hyn.
+
+
+
+STATIC CONSTRUCTOR
+STATIC  variable ko value initalize  kr skta hy
+class min srf 1 STATIC CONSTRUCTOR hota hy
+STATIC CONSTRUCTOR 1 hi dfa chly ga chy is class k jtny mrzi object bnlo
+STATIC CONSTRUCTOR ko  prameterize ni bna skty koi access modifiers ni lga skty
+
+
+
+COPY CONSTRUCTOR 
+is ka kam 1 object k variable ko copy kr k kisi dosry object min rkhna
+
+
+STATIC CLASS
+is ka object ni bna skty.
+is ko inhert ni kr skty.
+is min srf static member static method  hi ho skty hyn
+jb kisi class min data fix rkhna ho to is class ko static krty hyn
+
+
+
+
+STATIC PROPERTIES
+jo class k STATIC variables ho gy inko  vale set or get  krny kly STATIC PROPERTIES
+ka istamal krty hyn
+STATIC keyword.
+
+
+
+
+//There are two types of polymorphism:
+   //1Compile Time Polymorphism(method overloading)
+   //compile time  funcation ko object k sath  link krny ki  ik takneeq hy  
+      // i METHOD OVERLOADING
+            METHOD or funcation ka name same hota hy ik hi class k inder
+      // ii operator OVERLOADING
+
+   //2Run-Time Polymorphism(method overriding)
+       METHOD OVERRIDING 
+
+
+

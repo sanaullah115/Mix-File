@@ -1,0 +1,34 @@
+create table Tbl_Admin(
+admin_id int identity primary key,
+admin_Name varchar(50) not null unique,
+admin_password varchar(50) not null,
+);
+
+
+create table Category(
+Category_id int identity primary key,
+Category_Name varchar(50) not null,
+Category_image varchar(255) not null,
+);
+
+create table Tbl_user(
+user_id int identity primary key,
+user_Name varchar(50) not null,
+user_email varchar(50) not null unique,
+user_password varchar(50) not null,
+user_image varchar(255) not null,
+user_contact varchar(50) not null,
+);
+
+
+
+create table Tbl_Product(
+Product_id int identity primary key,
+Product_Name varchar(50) not null,
+Product_image varchar(max) not null,
+Product_des varchar(max) not null,
+Product_price int,
+P_Cat_fk int references Category(Category_id),
+P_user_fk int references tbl_user(user_id),
+P_admin_fk int references Tbl_admin(admin_id),
+);

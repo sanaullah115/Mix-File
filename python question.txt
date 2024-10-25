@@ -1,0 +1,11 @@
+What is Python?
+Name some of the features of Python.
+Is python a case sensitive language?
+What are the supported data types in Python?
+What are tuples in Python?
+What is the difference between tuples and lists in Python?
+What are Python's dictionaries?
+How will you create a dictionary in python?
+How will you get all the keys from the dictionary?
+How will you get all the values from the dictionary?
+What is lambda function in python?
